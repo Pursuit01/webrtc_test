@@ -1,8 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import VideoTest from './components/VideoTest.vue';
-import AudioTest from './components/AudioTest.vue';
-import WebSocketText from './components/WebSocketText.vue';
+import HelloWorld from "./components/HelloWorld.vue";
+import VideoTest from "./components/VideoTest.vue";
+import AudioTest from "./components/AudioTest.vue";
+import WebSocketText from "./components/WebSocketText.vue";
+import Download from "./components/Download.vue";
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import WebSocketText from './components/WebSocketText.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div> -->
-  <HelloWorld />
+  <Download></Download>
+  <!-- <HelloWorld /> -->
   <!-- <VideoTest></VideoTest> -->
   <!-- <AudioTest></AudioTest> -->
   <!-- <WebSocketText></WebSocketText> -->
